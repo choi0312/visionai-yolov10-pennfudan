@@ -1,0 +1,19 @@
+{
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "torch": "2.9.1+cu128",
+  "ultralytics": "8.4.175",
+  "python": "3.12.3",
+  "hf_repo": "jameslahm/yolov10n",
+  "hf_revision": "3b91f578c5b492080f191a26aa35711bb44f608c",
+  "seed": 42,
+  "imgsz": 640,
+  "epochs": 30,
+  "batch": 16,
+  "optimizer": "AdamW",
+  "lr0": 0.001,
+  "pretrained_classes": 80,
+  "finetuned_classes": 1,
+  "nms_free": true,
+  "weights_sha256": "98e5b4d81a20d1e8a972cd0be947944838ccd61f7f7e61828349a647d3607433",
+  "training_wall_s": 65.64133968902752
+}

@@ -1,0 +1,24 @@
+{
+  "mAP50_95": 0.8859297385956212,
+  "mAP50": 0.9771455815811602,
+  "mAP75": 0.9298763262138485,
+  "precision_at_025": 0.75,
+  "recall_at_025": 1.0,
+  "TP": 63,
+  "FP": 21,
+  "FN": 0,
+  "test_images": 26,
+  "test_objects": 63,
+  "predict_wall_s": 0.9095848351716995,
+  "gpu_inference_ms_image": 25.483348711322133,
+  "evaluation_conf_floor": 0.001,
+  "operating_conf": 0.25,
+  "operating_iou": 0.5,
+  "coco_max_dets": [
+    1,
+    10,
+    100
+  ],
+  "prediction_batch_size": 1,
+  "precision_recall_matching": "score-ordered one-to-one greedy matching, IoU >= .5"
+}

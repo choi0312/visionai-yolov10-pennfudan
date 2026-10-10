@@ -1,0 +1,17 @@
+.private/
+.env
+.env.*
+!.env.example
+__pycache__/
+*.pyc
+.venv/
+data/
+tmp/
+output/
+*.docx
+*.pdf
+*.log
+*.pt
+*.safetensors
+*.tar.gz
+.DS_Store

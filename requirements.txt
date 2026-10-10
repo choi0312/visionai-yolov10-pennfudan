@@ -1,0 +1,10 @@
+# Experiment GPU environment: Python 3.12.3, CUDA 12.8, RTX 4090.
+# Install torch/torchvision from the CUDA 12.8 index before this file.
+ultralytics==8.4.175
+huggingface_hub==2.2.0
+safetensors==0.8.0
+pycocotools==2.0.11
+numpy==2.5.3
+matplotlib==3.11.2
+Pillow==12.3.0
+PyYAML==6.0.3

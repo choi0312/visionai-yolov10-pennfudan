@@ -1,0 +1,23 @@
+{
+  "seed": 42,
+  "images": 170,
+  "objects": 423,
+  "archive_sha256": "9095a9613c95586f1c7f2a327d454833d16e0f5e17e5f83d35027ffd315b48e2",
+  "splits": {
+    "train": {
+      "images": 118,
+      "objects": 296
+    },
+    "val": {
+      "images": 26,
+      "objects": 64
+    },
+    "test": {
+      "images": 26,
+      "objects": 63
+    }
+  },
+  "duplicate_images": 0,
+  "bbox_convention": "xyxy half-open pixel boxes converted to normalized center x y width height; max coordinate +1",
+  "split_method": "Source-stratified image random split; no scene identity metadata; backgrounds may recur across splits."
+}
